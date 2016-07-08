@@ -1,0 +1,2 @@
+from mocking.conferencespeaker import ConferenceSpeaker
+from mocking.conferencedelegate import ConferenceDelegate
