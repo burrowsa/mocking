@@ -44,7 +44,7 @@ def test_speaker_greets_sole_delegate_v2():
     sut.greet([delegate])
     
     # Assert
-    delegate.mock_calls = [call.speakto("Hi my name is Andy Burrows, follow me on twitter @andrewburrows")]
+    assert delegate.mock_calls == [call.speakto("Hi my name is Andy Burrows, follow me on twitter @andrewburrows")]
 
 
 def test_speaker_greets_sole_delegate_v3():  
